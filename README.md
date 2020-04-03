@@ -1,4 +1,6 @@
 
 ## Rest server de prueba
 
-- Iniciando el restserver 
+- Validacion de email y role.
+- Encriptación de password con bycript
+- Conexión con mongo Atlas
