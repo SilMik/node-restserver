@@ -36,7 +36,7 @@ app.get('/usuario', (req, res) => {
             }
 
             //count misma condición del find, luego recibe el callback que recibe el error y el conteo de registros.
-            Usuario.countDocumentsx({ estado: true }, (err, conteo) => {
+            Usuario.countDocuments({ estado: true }, (err, conteo) => {
                 //respuesta del servicio
                 res.json({
                     ok: true,
